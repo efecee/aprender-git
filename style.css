@@ -1,0 +1,15 @@
+.main{
+    height: 500px;
+    width: 500px;
+    border: solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-direction: column;
+}
+.hijo{
+    width: 200px;
+    height: 200px;
+    border: solid;
+}
