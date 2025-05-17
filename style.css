@@ -1,3 +1,10 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .main{
     height: 500px;
     width: 500px;
@@ -6,7 +13,6 @@
     justify-content: center;
     align-items: center;
     gap: 20px;
-    flex-direction: column;
 }
 .hijo{
     width: 150px;
