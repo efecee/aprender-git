@@ -3,5 +3,9 @@ const hijo = document.querySelectorAll('.hijo')
 
 padre.style.backgroundColor = 'gray'
 hijo.forEach((h) => {
-    h.style.backgroundColor = 'red'
+    if(h.classList.contains('dos')){
+        h.style.backgroundColor = 'red'
+    }else{
+        h.style.backgroundColor = 'blue'
+    }
 })
