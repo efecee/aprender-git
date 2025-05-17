@@ -6,8 +6,8 @@ body{
 }
 .main{
     height: 500px;
-    width: 500px;
-    border: solid;
+    width: 300px;
+    border: solid 3px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,5 +17,5 @@ body{
 .hijo{
     width: 150px;
     height: 150px;
-    border: solid;
+    border: solid 3px;
 }
